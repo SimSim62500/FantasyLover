@@ -7,9 +7,8 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.JoinColumn;
+import javax.persistence.ManyToMany;
 import javax.persistence.OneToMany;
-import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity
@@ -24,14 +23,17 @@ public class Histoire {
 	@Column(name = "HIST_NARRATION", nullable = false)
 	private String narration;
 
-	// perso à choisir, + l'expression qu'il doit avoir
-
 	@OneToMany(mappedBy = "histoire")
 	private List<Reponse> reponses;
 
-	@OneToOne
-	@JoinColumn(name = "HIST_NAVIGATION_ID")
-	private Navigation navigation;
+	@OneToMany(mappedBy = "histoireRedirigee")
+	private List<Navigation> navigations;
+
+	@ManyToMany(mappedBy = "histoires")
+	private List<Personnage> personnages;
+
+	@Column(name = "expression")
+	private Expression expression;
 
 	public Histoire() {
 
@@ -59,6 +61,30 @@ public class Histoire {
 
 	public void setReponses(List<Reponse> reponses) {
 		this.reponses = reponses;
+	}
+
+	public List<Navigation> getNavigations() {
+		return navigations;
+	}
+
+	public void setNavigations(List<Navigation> navigations) {
+		this.navigations = navigations;
+	}
+
+	public List<Personnage> getPersonnages() {
+		return personnages;
+	}
+
+	public void setPersonnages(List<Personnage> personnages) {
+		this.personnages = personnages;
+	}
+
+	public Expression getExpression() {
+		return expression;
+	}
+
+	public void setExpression(Expression expression) {
+		this.expression = expression;
 	}
 
 }

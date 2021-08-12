@@ -1,5 +1,7 @@
 package fr.formation.model;
 
+import java.util.List;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -7,7 +9,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
-import javax.persistence.OneToOne;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 @Entity
@@ -26,9 +28,8 @@ public class Reponse {
 	@JoinColumn(name = "REP_HISTOIRE_ID", nullable = false)
 	private Histoire histoire;
 
-	@OneToOne
-	@JoinColumn(name = "REP_NAVIGATION_ID")
-	private Navigation navigation;
+	@OneToMany(mappedBy = "choixEffectue")
+	private List<Navigation> navigations;
 
 	public Reponse() {
 

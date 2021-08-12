@@ -5,7 +5,8 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.OneToOne;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 @Entity
@@ -17,10 +18,12 @@ public class Navigation {
 	@Column(name = "NAV_ID")
 	private int id;
 
-	@OneToOne(mappedBy = "navigation")
+	@ManyToOne
+	@JoinColumn(name = "NAV_HISTOIRE_REDIRIGEE_ID")
 	private Histoire histoireRedirigee;
 
-	@OneToOne(mappedBy = "navigation")
+	@ManyToOne
+	@JoinColumn(name = "NAV_CHOIX_EFFECTUE")
 	private Reponse choixEffectue;
 
 	@Column(name = "NAV_SEXE")
