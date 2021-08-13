@@ -11,12 +11,12 @@ public class InsertPersonnageJpaDao {
 
 	public static void main(String[] args) {
 		IPersonnageDao daoPersonnage = new PersonnageDaoJpa();
-		insertPersonnage(daoPersonnage);
+		insertPersonnage1(daoPersonnage);
 		AbstractDaoJpa.close();
 	}
 
-	public static void insertPersonnage(IPersonnageDao daoPersonnage) {
-		Personnage monPersonnage = new Personnage("Zarg", "Zarg", Sexe.MASCULIN, OrientationSexuelle.BI);
+	public static void insertPersonnage1(IPersonnageDao daoPersonnage) {
+		Personnage monPersonnage = new Personnage("Vlad", "Zarg", Sexe.MASCULIN, OrientationSexuelle.BI);
 		daoPersonnage.insert(monPersonnage);
 	}
 

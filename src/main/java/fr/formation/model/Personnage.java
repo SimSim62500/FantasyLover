@@ -9,11 +9,8 @@ import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.JoinTable;
-import javax.persistence.ManyToMany;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
-import javax.persistence.UniqueConstraint;
 
 @Entity
 @Table(name = "personnage")
@@ -38,9 +35,7 @@ public class Personnage {
 	@Enumerated(EnumType.ORDINAL)
 	private OrientationSexuelle orientationSexuelle;
 
-	@ManyToMany
-	@JoinTable(name = "histoire_personnage", joinColumns = @JoinColumn(name = "IDPERSONNAGE", referencedColumnName = "PERS_ID"), inverseJoinColumns = @JoinColumn(name = "IDHISTOIRE", referencedColumnName = "HIST_ID"), uniqueConstraints = @UniqueConstraint(columnNames = {
-			"IDPERSONNAGE", "IDHISTOIRE" }))
+	@OneToMany(mappedBy = "personnage")
 	private List<Histoire> histoires;
 
 	public Personnage() {

@@ -7,7 +7,8 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.ManyToMany;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
@@ -20,7 +21,7 @@ public class Histoire {
 	@Column(name = "HIST_ID")
 	private int id;
 
-	@Column(name = "HIST_NARRATION", nullable = false)
+	@Column(name = "HIST_NARRATION", nullable = false, length = 100000)
 	private String narration;
 
 	@OneToMany(mappedBy = "histoire")
@@ -29,11 +30,15 @@ public class Histoire {
 	@OneToMany(mappedBy = "histoireRedirigee")
 	private List<Navigation> navigations;
 
-	@ManyToMany(mappedBy = "histoires")
-	private List<Personnage> personnages;
+	@ManyToOne
+	@JoinColumn(name = "HIST_PERSONNAGE_ID")
+	private Personnage personnage;
 
-	@Column(name = "expression")
+	@Column(name = "HIST_EXPRESSION")
 	private Expression expression;
+
+	@Column(name = "HIST_SEXE_JOUEUR")
+	private Sexe sexeDuJoueur;
 
 	public Histoire() {
 
@@ -71,20 +76,28 @@ public class Histoire {
 		this.navigations = navigations;
 	}
 
-	public List<Personnage> getPersonnages() {
-		return personnages;
-	}
-
-	public void setPersonnages(List<Personnage> personnages) {
-		this.personnages = personnages;
-	}
-
 	public Expression getExpression() {
 		return expression;
 	}
 
 	public void setExpression(Expression expression) {
 		this.expression = expression;
+	}
+
+	public Personnage getPersonnage() {
+		return personnage;
+	}
+
+	public void setPersonnage(Personnage personnage) {
+		this.personnage = personnage;
+	}
+
+	public Sexe getSexeDuJoueur() {
+		return sexeDuJoueur;
+	}
+
+	public void setSexeDuJoueur(Sexe sexeDuJoueur) {
+		this.sexeDuJoueur = sexeDuJoueur;
 	}
 
 }

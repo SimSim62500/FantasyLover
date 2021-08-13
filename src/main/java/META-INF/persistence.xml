@@ -9,6 +9,8 @@
 		<class>fr.formation.model.Histoire</class>
 		<class>fr.formation.model.Personnage</class>
 		<class>fr.formation.model.Reponse</class>
+		<class>fr.formation.model.Joueur</class>
+		<class>fr.formation.model.Navigation</class>
 		<!-- Eventuellement d'autres classes d'Entité -->
 	
 	

@@ -26,8 +26,8 @@ public class Navigation {
 	@JoinColumn(name = "NAV_CHOIX_EFFECTUE")
 	private Reponse choixEffectue;
 
-	@Column(name = "NAV_SEXE")
-	private Sexe sexe;
+	@Column(name = "NAV_SEXE_JOUEUR")
+	private Sexe sexeDuJoueur;
 
 	@Column(name = "NAV_ORIENTATION_SEXUELLE")
 	private OrientationSexuelle orientationSexelle;
@@ -52,12 +52,12 @@ public class Navigation {
 		this.choixEffectue = choixEffectue;
 	}
 
-	public Sexe getSexe() {
-		return sexe;
+	public Sexe getSexeDuJoueur() {
+		return sexeDuJoueur;
 	}
 
-	public void setSexe(Sexe sexe) {
-		this.sexe = sexe;
+	public void setSexeDuJoueur(Sexe sexeDuJoueur) {
+		this.sexeDuJoueur = sexeDuJoueur;
 	}
 
 	public OrientationSexuelle getOrientationSexelle() {
