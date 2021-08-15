@@ -36,6 +36,24 @@ public class InsertReponseJpaDao {
 //		insertReponse22(daoReponse);
 //		insertReponse23(daoReponse);
 //		insertReponse24(daoReponse);
+//		insertReponse25(daoReponse);
+//		insertReponse26(daoReponse);
+//		insertReponse27(daoReponse);
+//		insertReponse28(daoReponse);
+//		insertReponse29(daoReponse);
+//		insertReponse30(daoReponse);
+//		insertReponse31(daoReponse);
+//		insertReponse32(daoReponse);
+//		insertReponse33(daoReponse);
+//		insertReponse34(daoReponse);
+//		insertReponse35(daoReponse);
+//		insertReponse36(daoReponse);
+//		insertReponse37(daoReponse);
+//		insertReponse38(daoReponse);
+//		insertReponse39(daoReponse);
+//		insertReponse40(daoReponse);
+//		insertReponse41(daoReponse);
+//		insertReponse42(daoReponse);
 		AbstractDaoJpa.close();
 	}
 
@@ -43,7 +61,7 @@ public class InsertReponseJpaDao {
 		Reponse maReponse = new Reponse();
 		maReponse.setChoix("« AAAAH UN ABORIGENE !!! »");
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monhistoire = daoHistoire.findById(3);
+		Histoire monhistoire = daoHistoire.findById(1);
 		maReponse.setHistoire(monhistoire);
 		daoReponse.save(maReponse);
 	}
@@ -52,7 +70,7 @@ public class InsertReponseJpaDao {
 		Reponse maReponse = new Reponse();
 		maReponse.setChoix("« AAAAH UN ABORIGENE !!! »");
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monhistoire = daoHistoire.findById(4);
+		Histoire monhistoire = daoHistoire.findById(2);
 		maReponse.setHistoire(monhistoire);
 		daoReponse.save(maReponse);
 	}
@@ -61,7 +79,7 @@ public class InsertReponseJpaDao {
 		Reponse maReponse = new Reponse();
 		maReponse.setChoix("« Vous n’avez cas dormir dans un lit comme tout le monde ! C’est vous le paysan !»");
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monhistoire = daoHistoire.findById(3);
+		Histoire monhistoire = daoHistoire.findById(1);
 		maReponse.setHistoire(monhistoire);
 		daoReponse.save(maReponse);
 	}
@@ -70,7 +88,7 @@ public class InsertReponseJpaDao {
 		Reponse maReponse = new Reponse();
 		maReponse.setChoix("« Vous n’avez cas dormir dans un lit comme tout le monde ! C’est vous le paysan !»");
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monhistoire = daoHistoire.findById(4);
+		Histoire monhistoire = daoHistoire.findById(2);
 		maReponse.setHistoire(monhistoire);
 		daoReponse.save(maReponse);
 	}
@@ -79,7 +97,7 @@ public class InsertReponseJpaDao {
 		Reponse maReponse = new Reponse();
 		maReponse.setChoix("« Comment allez-vous charmant jeune homme ? »");
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monhistoire = daoHistoire.findById(3);
+		Histoire monhistoire = daoHistoire.findById(1);
 		maReponse.setHistoire(monhistoire);
 		daoReponse.save(maReponse);
 	}
@@ -88,7 +106,7 @@ public class InsertReponseJpaDao {
 		Reponse maReponse = new Reponse();
 		maReponse.setChoix("« Comment allez-vous charmant jeune homme ? »");
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monhistoire = daoHistoire.findById(4);
+		Histoire monhistoire = daoHistoire.findById(2);
 		maReponse.setHistoire(monhistoire);
 		daoReponse.save(maReponse);
 	}
@@ -97,7 +115,7 @@ public class InsertReponseJpaDao {
 		Reponse maReponse = new Reponse();
 		maReponse.setChoix("« Cela ne vous regarde pas. »");
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monhistoire = daoHistoire.findById(11);
+		Histoire monhistoire = daoHistoire.findById(3);
 		maReponse.setHistoire(monhistoire);
 		daoReponse.save(maReponse);
 	}
@@ -106,159 +124,327 @@ public class InsertReponseJpaDao {
 		Reponse maReponse = new Reponse();
 		maReponse.setChoix("« Cela ne vous regarde pas. »");
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monhistoire = daoHistoire.findById(12);
+		Histoire monhistoire = daoHistoire.findById(4);
 		maReponse.setHistoire(monhistoire);
 		daoReponse.save(maReponse);
 	}
 
 	public static void insertReponse9(IReponseDao daoReponse) {
 		Reponse maReponse = new Reponse();
-		maReponse.setChoix("« De Tokyo, au Japon… Ceux-ci sont mes habits de lycée » ");
+		maReponse.setChoix("« Cela ne vous regarde pas. »");
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monhistoire = daoHistoire.findById(11);
+		Histoire monhistoire = daoHistoire.findById(5);
 		maReponse.setHistoire(monhistoire);
 		daoReponse.save(maReponse);
 	}
 
 	public static void insertReponse10(IReponseDao daoReponse) {
 		Reponse maReponse = new Reponse();
-		maReponse.setChoix("« De Tokyo, au Japon… Ceux-ci sont mes habits de lycée » ");
+		maReponse.setChoix("« Cela ne vous regarde pas. »");
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monhistoire = daoHistoire.findById(12);
+		Histoire monhistoire = daoHistoire.findById(6);
 		maReponse.setHistoire(monhistoire);
 		daoReponse.save(maReponse);
 	}
 
 	public static void insertReponse11(IReponseDao daoReponse) {
 		Reponse maReponse = new Reponse();
-		maReponse.setChoix("« Ma mère m’a toujours dit de ne pas parler aux inconnus »");
+		maReponse.setChoix("« Cela ne vous regarde pas. »");
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monhistoire = daoHistoire.findById(11);
+		Histoire monhistoire = daoHistoire.findById(7);
 		maReponse.setHistoire(monhistoire);
 		daoReponse.save(maReponse);
 	}
 
 	public static void insertReponse12(IReponseDao daoReponse) {
 		Reponse maReponse = new Reponse();
-		maReponse.setChoix("« Ma mère m’a toujours dit de ne pas parler aux inconnus »");
+		maReponse.setChoix("« Cela ne vous regarde pas. »");
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monhistoire = daoHistoire.findById(12);
+		Histoire monhistoire = daoHistoire.findById(8);
 		maReponse.setHistoire(monhistoire);
 		daoReponse.save(maReponse);
 	}
 
 	public static void insertReponse13(IReponseDao daoReponse) {
 		Reponse maReponse = new Reponse();
-		maReponse.setChoix(
-				"« * Ce nom me dit quelque chose… je crois avoir jouée à un jeu du même nom * … Je m’appelle $joueur$ enchantée ». ");
+		maReponse.setChoix("« De Tokyo, au Japon… Ceux-ci sont mes habits de lycée » ");
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monhistoire = daoHistoire.findById(21);
+		Histoire monhistoire = daoHistoire.findById(3);
 		maReponse.setHistoire(monhistoire);
 		daoReponse.save(maReponse);
 	}
 
 	public static void insertReponse14(IReponseDao daoReponse) {
 		Reponse maReponse = new Reponse();
-		maReponse.setChoix(
-				"« * Ce nom me dit quelque chose… je crois avoir joué à un jeu du même nom * … Je m’appelle $joueur$ enchanté ». ");
+		maReponse.setChoix("« De Tokyo, au Japon… Ceux-ci sont mes habits de lycée » ");
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monhistoire = daoHistoire.findById(22);
+		Histoire monhistoire = daoHistoire.findById(4);
 		maReponse.setHistoire(monhistoire);
 		daoReponse.save(maReponse);
 	}
 
 	public static void insertReponse15(IReponseDao daoReponse) {
 		Reponse maReponse = new Reponse();
-		maReponse.setChoix(
-				"« * Ce nom me dit quelque chose… je crois avoir jouée à un jeu du même nom * … Je m’appelle $joueur$ vous êtes content de l’apprendre ? »");
+		maReponse.setChoix("« De Tokyo, au Japon… Ceux-ci sont mes habits de lycée » ");
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monhistoire = daoHistoire.findById(21);
+		Histoire monhistoire = daoHistoire.findById(5);
 		maReponse.setHistoire(monhistoire);
 		daoReponse.save(maReponse);
 	}
 
 	public static void insertReponse16(IReponseDao daoReponse) {
 		Reponse maReponse = new Reponse();
-		maReponse.setChoix(
-				"« * Ce nom me dit quelque chose… je crois avoir joué à un jeu du même nom * … Je m’appelle $joueur$ vous êtes content de l’apprendre ? »");
+		maReponse.setChoix("« De Tokyo, au Japon… Ceux-ci sont mes habits de lycée » ");
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monhistoire = daoHistoire.findById(22);
+		Histoire monhistoire = daoHistoire.findById(6);
 		maReponse.setHistoire(monhistoire);
 		daoReponse.save(maReponse);
 	}
 
 	public static void insertReponse17(IReponseDao daoReponse) {
 		Reponse maReponse = new Reponse();
-		maReponse.setChoix(
-				"« * Ce nom me dit quelque chose… je crois avoir jouée à un jeu du même nom * … $joueur$ *marmonne* ».");
+		maReponse.setChoix("« De Tokyo, au Japon… Ceux-ci sont mes habits de lycée » ");
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monhistoire = daoHistoire.findById(21);
+		Histoire monhistoire = daoHistoire.findById(7);
 		maReponse.setHistoire(monhistoire);
 		daoReponse.save(maReponse);
 	}
 
 	public static void insertReponse18(IReponseDao daoReponse) {
 		Reponse maReponse = new Reponse();
-		maReponse.setChoix(
-				"« * Ce nom me dit quelque chose… je crois avoir jouée à un jeu du même nom * … $joueur$ *marmonne* ».");
+		maReponse.setChoix("« De Tokyo, au Japon… Ceux-ci sont mes habits de lycée » ");
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monhistoire = daoHistoire.findById(22);
+		Histoire monhistoire = daoHistoire.findById(8);
 		maReponse.setHistoire(monhistoire);
 		daoReponse.save(maReponse);
 	}
 
 	public static void insertReponse19(IReponseDao daoReponse) {
 		Reponse maReponse = new Reponse();
-		maReponse.setChoix("« Je m’appelle $joueur$, maintenant où sommes-nous ?! »");
+		maReponse.setChoix("« Ma mère m’a toujours dit de ne pas parler aux inconnus »");
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monhistoire = daoHistoire.findById(23);
+		Histoire monhistoire = daoHistoire.findById(3);
 		maReponse.setHistoire(monhistoire);
 		daoReponse.save(maReponse);
 	}
 
 	public static void insertReponse20(IReponseDao daoReponse) {
 		Reponse maReponse = new Reponse();
-		maReponse.setChoix("« Je m’appelle $joueur$, maintenant où sommes-nous ?! »");
+		maReponse.setChoix("« Ma mère m’a toujours dit de ne pas parler aux inconnus »");
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monhistoire = daoHistoire.findById(24);
+		Histoire monhistoire = daoHistoire.findById(4);
 		maReponse.setHistoire(monhistoire);
 		daoReponse.save(maReponse);
 	}
 
 	public static void insertReponse21(IReponseDao daoReponse) {
 		Reponse maReponse = new Reponse();
-		maReponse.setChoix(
-				"« Vous êtes vraiment loin d’avoir la classe d’un marquis pour faire un tel chantage… je m’appelle $joueur$ ».");
+		maReponse.setChoix("« Ma mère m’a toujours dit de ne pas parler aux inconnus »");
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monhistoire = daoHistoire.findById(23);
+		Histoire monhistoire = daoHistoire.findById(5);
 		maReponse.setHistoire(monhistoire);
 		daoReponse.save(maReponse);
 	}
 
 	public static void insertReponse22(IReponseDao daoReponse) {
 		Reponse maReponse = new Reponse();
-		maReponse.setChoix(
-				"« Vous êtes vraiment loin d’avoir la classe d’un marquis pour faire un tel chantage… je m’appelle $joueur$ ».");
+		maReponse.setChoix("« Ma mère m’a toujours dit de ne pas parler aux inconnus »");
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monhistoire = daoHistoire.findById(24);
+		Histoire monhistoire = daoHistoire.findById(6);
 		maReponse.setHistoire(monhistoire);
 		daoReponse.save(maReponse);
 	}
 
 	public static void insertReponse23(IReponseDao daoReponse) {
 		Reponse maReponse = new Reponse();
-		maReponse.setChoix("« * marmonne * $joueur$ … ».");
+		maReponse.setChoix("« Ma mère m’a toujours dit de ne pas parler aux inconnus »");
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monhistoire = daoHistoire.findById(23);
+		Histoire monhistoire = daoHistoire.findById(7);
 		maReponse.setHistoire(monhistoire);
 		daoReponse.save(maReponse);
 	}
 
 	public static void insertReponse24(IReponseDao daoReponse) {
 		Reponse maReponse = new Reponse();
+		maReponse.setChoix("« Ma mère m’a toujours dit de ne pas parler aux inconnus »");
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monhistoire = daoHistoire.findById(8);
+		maReponse.setHistoire(monhistoire);
+		daoReponse.save(maReponse);
+	}
+
+	public static void insertReponse25(IReponseDao daoReponse) {
+		Reponse maReponse = new Reponse();
+		maReponse.setChoix(
+				"« * Ce nom me dit quelque chose… je crois avoir jouée à un jeu du même nom * … Je m’appelle $joueur$ enchantée ». ");
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monhistoire = daoHistoire.findById(9);
+		maReponse.setHistoire(monhistoire);
+		daoReponse.save(maReponse);
+	}
+
+	public static void insertReponse26(IReponseDao daoReponse) {
+		Reponse maReponse = new Reponse();
+		maReponse.setChoix(
+				"« * Ce nom me dit quelque chose… je crois avoir joué à un jeu du même nom * … Je m’appelle $joueur$ enchanté ». ");
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monhistoire = daoHistoire.findById(10);
+		maReponse.setHistoire(monhistoire);
+		daoReponse.save(maReponse);
+	}
+
+	public static void insertReponse27(IReponseDao daoReponse) {
+		Reponse maReponse = new Reponse();
+		maReponse.setChoix(
+				"« * Ce nom me dit quelque chose… je crois avoir jouée à un jeu du même nom * … Je m’appelle $joueur$ enchantée ». ");
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monhistoire = daoHistoire.findById(11);
+		maReponse.setHistoire(monhistoire);
+		daoReponse.save(maReponse);
+	}
+
+	public static void insertReponse28(IReponseDao daoReponse) {
+		Reponse maReponse = new Reponse();
+		maReponse.setChoix(
+				"« * Ce nom me dit quelque chose… je crois avoir joué à un jeu du même nom * … Je m’appelle $joueur$ enchanté ». ");
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monhistoire = daoHistoire.findById(12);
+		maReponse.setHistoire(monhistoire);
+		daoReponse.save(maReponse);
+	}
+
+	public static void insertReponse29(IReponseDao daoReponse) {
+		Reponse maReponse = new Reponse();
+		maReponse.setChoix(
+				"« * Ce nom me dit quelque chose… je crois avoir jouée à un jeu du même nom * … Je m’appelle $joueur$ vous êtes content de l’apprendre ? »");
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monhistoire = daoHistoire.findById(9);
+		maReponse.setHistoire(monhistoire);
+		daoReponse.save(maReponse);
+	}
+
+	public static void insertReponse30(IReponseDao daoReponse) {
+		Reponse maReponse = new Reponse();
+		maReponse.setChoix(
+				"« * Ce nom me dit quelque chose… je crois avoir joué à un jeu du même nom * … Je m’appelle $joueur$ vous êtes content de l’apprendre ? »");
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monhistoire = daoHistoire.findById(10);
+		maReponse.setHistoire(monhistoire);
+		daoReponse.save(maReponse);
+	}
+
+	public static void insertReponse31(IReponseDao daoReponse) {
+		Reponse maReponse = new Reponse();
+		maReponse.setChoix(
+				"« * Ce nom me dit quelque chose… je crois avoir jouée à un jeu du même nom * … Je m’appelle $joueur$ vous êtes content de l’apprendre ? »");
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monhistoire = daoHistoire.findById(11);
+		maReponse.setHistoire(monhistoire);
+		daoReponse.save(maReponse);
+	}
+
+	public static void insertReponse32(IReponseDao daoReponse) {
+		Reponse maReponse = new Reponse();
+		maReponse.setChoix(
+				"« * Ce nom me dit quelque chose… je crois avoir joué à un jeu du même nom * … Je m’appelle $joueur$ vous êtes content de l’apprendre ? »");
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monhistoire = daoHistoire.findById(12);
+		maReponse.setHistoire(monhistoire);
+		daoReponse.save(maReponse);
+	}
+
+	public static void insertReponse33(IReponseDao daoReponse) {
+		Reponse maReponse = new Reponse();
+		maReponse.setChoix(
+				"« * Ce nom me dit quelque chose… je crois avoir jouée à un jeu du même nom * … $joueur$ *marmonne* ».");
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monhistoire = daoHistoire.findById(9);
+		maReponse.setHistoire(monhistoire);
+		daoReponse.save(maReponse);
+	}
+
+	public static void insertReponse34(IReponseDao daoReponse) {
+		Reponse maReponse = new Reponse();
+		maReponse.setChoix(
+				"« * Ce nom me dit quelque chose… je crois avoir jouée à un jeu du même nom * … $joueur$ *marmonne* ».");
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monhistoire = daoHistoire.findById(10);
+		maReponse.setHistoire(monhistoire);
+		daoReponse.save(maReponse);
+	}
+
+	public static void insertReponse35(IReponseDao daoReponse) {
+		Reponse maReponse = new Reponse();
+		maReponse.setChoix(
+				"« * Ce nom me dit quelque chose… je crois avoir jouée à un jeu du même nom * … $joueur$ *marmonne* ».");
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monhistoire = daoHistoire.findById(11);
+		maReponse.setHistoire(monhistoire);
+		daoReponse.save(maReponse);
+	}
+
+	public static void insertReponse36(IReponseDao daoReponse) {
+		Reponse maReponse = new Reponse();
+		maReponse.setChoix(
+				"« * Ce nom me dit quelque chose… je crois avoir jouée à un jeu du même nom * … $joueur$ *marmonne* ».");
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monhistoire = daoHistoire.findById(12);
+		maReponse.setHistoire(monhistoire);
+		daoReponse.save(maReponse);
+	}
+
+	public static void insertReponse37(IReponseDao daoReponse) {
+		Reponse maReponse = new Reponse();
+		maReponse.setChoix("« Je m’appelle $joueur$, maintenant où sommes-nous ?! »");
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monhistoire = daoHistoire.findById(13);
+		maReponse.setHistoire(monhistoire);
+		daoReponse.save(maReponse);
+	}
+
+	public static void insertReponse38(IReponseDao daoReponse) {
+		Reponse maReponse = new Reponse();
+		maReponse.setChoix("« Je m’appelle $joueur$, maintenant où sommes-nous ?! »");
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monhistoire = daoHistoire.findById(14);
+		maReponse.setHistoire(monhistoire);
+		daoReponse.save(maReponse);
+	}
+
+	public static void insertReponse39(IReponseDao daoReponse) {
+		Reponse maReponse = new Reponse();
+		maReponse.setChoix(
+				"« Vous êtes vraiment loin d’avoir la classe d’un marquis pour faire un tel chantage… je m’appelle $joueur$ ».");
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monhistoire = daoHistoire.findById(13);
+		maReponse.setHistoire(monhistoire);
+		daoReponse.save(maReponse);
+	}
+
+	public static void insertReponse40(IReponseDao daoReponse) {
+		Reponse maReponse = new Reponse();
+		maReponse.setChoix(
+				"« Vous êtes vraiment loin d’avoir la classe d’un marquis pour faire un tel chantage… je m’appelle $joueur$ ».");
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monhistoire = daoHistoire.findById(14);
+		maReponse.setHistoire(monhistoire);
+		daoReponse.save(maReponse);
+	}
+
+	public static void insertReponse41(IReponseDao daoReponse) {
+		Reponse maReponse = new Reponse();
 		maReponse.setChoix("« * marmonne * $joueur$ … ».");
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monhistoire = daoHistoire.findById(24);
+		Histoire monhistoire = daoHistoire.findById(13);
+		maReponse.setHistoire(monhistoire);
+		daoReponse.save(maReponse);
+	}
+
+	public static void insertReponse42(IReponseDao daoReponse) {
+		Reponse maReponse = new Reponse();
+		maReponse.setChoix("« * marmonne * $joueur$ … ».");
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monhistoire = daoHistoire.findById(14);
 		maReponse.setHistoire(monhistoire);
 		daoReponse.save(maReponse);
 	}

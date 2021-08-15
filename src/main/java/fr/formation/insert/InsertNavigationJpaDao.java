@@ -17,78 +17,132 @@ public class InsertNavigationJpaDao {
 
 	public static void main(String[] args) {
 		INavigationDao daoNavigation = new NavigationDaoJpa();
-		insertNavigation1(daoNavigation);
-		insertNavigation2(daoNavigation);
-		insertNavigation3(daoNavigation);
-		insertNavigation4(daoNavigation);
-		insertNavigation5(daoNavigation);
-		insertNavigation6(daoNavigation);
-		insertNavigation7(daoNavigation);
-		insertNavigation8(daoNavigation);
-		insertNavigation9(daoNavigation);
-		insertNavigation10(daoNavigation);
-		insertNavigation11(daoNavigation);
-		insertNavigation12(daoNavigation);
-		insertNavigation13(daoNavigation);
-		insertNavigation14(daoNavigation);
-		insertNavigation15(daoNavigation);
-		insertNavigation16(daoNavigation);
-		insertNavigation17(daoNavigation);
-		insertNavigation18(daoNavigation);
-		insertNavigation19(daoNavigation);
-		insertNavigation20(daoNavigation);
-		insertNavigation21(daoNavigation);
-		insertNavigation22(daoNavigation);
-		insertNavigation23(daoNavigation);
-		insertNavigation24(daoNavigation);
-		insertNavigation25(daoNavigation);
-		insertNavigation26(daoNavigation);
-		insertNavigation27(daoNavigation);
-		insertNavigation28(daoNavigation);
-		insertNavigation29(daoNavigation);
-		insertNavigation30(daoNavigation);
-		insertNavigation31(daoNavigation);
-		insertNavigation32(daoNavigation);
-		insertNavigation33(daoNavigation);
-		insertNavigation34(daoNavigation);
-		insertNavigation35(daoNavigation);
-		insertNavigation36(daoNavigation);
-		insertNavigation37(daoNavigation);
-		insertNavigation38(daoNavigation);
-		insertNavigation39(daoNavigation);
-		insertNavigation40(daoNavigation);
-		insertNavigation41(daoNavigation);
-		insertNavigation42(daoNavigation);
-		insertNavigation43(daoNavigation);
-		insertNavigation44(daoNavigation);
-		insertNavigation45(daoNavigation);
-		insertNavigation46(daoNavigation);
-		insertNavigation47(daoNavigation);
-		insertNavigation48(daoNavigation);
-		insertNavigation49(daoNavigation);
-		insertNavigation50(daoNavigation);
-		insertNavigation51(daoNavigation);
-		insertNavigation52(daoNavigation);
-		insertNavigation53(daoNavigation);
-		insertNavigation54(daoNavigation);
-		insertNavigation55(daoNavigation);
-		insertNavigation56(daoNavigation);
-		insertNavigation57(daoNavigation);
-		insertNavigation58(daoNavigation);
-		insertNavigation59(daoNavigation);
-		insertNavigation60(daoNavigation);
-		insertNavigation61(daoNavigation);
-		insertNavigation62(daoNavigation);
-		insertNavigation63(daoNavigation);
-		insertNavigation64(daoNavigation);
-		insertNavigation65(daoNavigation);
-		insertNavigation66(daoNavigation);
-		insertNavigation67(daoNavigation);
-		insertNavigation68(daoNavigation);
-		insertNavigation69(daoNavigation);
-		insertNavigation70(daoNavigation);
-		insertNavigation71(daoNavigation);
-		insertNavigation72(daoNavigation);
+//		insertNavigation1(daoNavigation);
+//		insertNavigation2(daoNavigation);
+//		insertNavigation3(daoNavigation);
+//		insertNavigation4(daoNavigation);
+//		insertNavigation5(daoNavigation);
+//		insertNavigation6(daoNavigation);
+//		insertNavigation7(daoNavigation);
+//		insertNavigation8(daoNavigation);
+//		insertNavigation9(daoNavigation);
+//		insertNavigation10(daoNavigation);
+//		insertNavigation11(daoNavigation);
+//		insertNavigation12(daoNavigation);
+//		insertNavigation13(daoNavigation);
+//		insertNavigation14(daoNavigation);
+//		insertNavigation15(daoNavigation);
+//		insertNavigation16(daoNavigation);
+//		insertNavigation17(daoNavigation);
+//		insertNavigation18(daoNavigation);
+//		insertNavigation19(daoNavigation);
+//		insertNavigation20(daoNavigation);
+//		insertNavigation21(daoNavigation);
+//		insertNavigation22(daoNavigation);
+//		insertNavigation23(daoNavigation);
+//		insertNavigation24(daoNavigation);
+//		insertNavigation25(daoNavigation);
+//		insertNavigation26(daoNavigation);
+//		insertNavigation27(daoNavigation);
+//		insertNavigation28(daoNavigation);
+//		insertNavigation29(daoNavigation);
+//		insertNavigation30(daoNavigation);
+//		insertNavigation31(daoNavigation);
+//		insertNavigation32(daoNavigation);
+//		insertNavigation33(daoNavigation);
+//		insertNavigation34(daoNavigation);
+//		insertNavigation35(daoNavigation);
+//		insertNavigation36(daoNavigation);
+//		insertNavigation37(daoNavigation);
+//		insertNavigation38(daoNavigation);
+//		insertNavigation39(daoNavigation);
+//		insertNavigation40(daoNavigation);
+//		insertNavigation41(daoNavigation);
+//		insertNavigation42(daoNavigation);
+//		insertNavigation43(daoNavigation);
+//		insertNavigation44(daoNavigation);
+//		insertNavigation45(daoNavigation);
+//		insertNavigation46(daoNavigation);
+//		insertNavigation47(daoNavigation);
+//		insertNavigation48(daoNavigation);
+//		insertNavigation49(daoNavigation);
+//		insertNavigation50(daoNavigation);
+//		insertNavigation51(daoNavigation);
+//		insertNavigation52(daoNavigation);
+//		insertNavigation53(daoNavigation);
+//		insertNavigation54(daoNavigation);
+//		insertNavigation55(daoNavigation);
+//		insertNavigation56(daoNavigation);
+//		insertNavigation57(daoNavigation);
+//		insertNavigation58(daoNavigation);
+//		insertNavigation59(daoNavigation);
+//		insertNavigation60(daoNavigation);
+//		insertNavigation61(daoNavigation);
+//		insertNavigation62(daoNavigation);
+//		insertNavigation63(daoNavigation);
+//		insertNavigation64(daoNavigation);
+//		insertNavigation65(daoNavigation);
+//		insertNavigation66(daoNavigation);
+//		insertNavigation67(daoNavigation);
+//		insertNavigation68(daoNavigation);
+//		insertNavigation69(daoNavigation);
+//		insertNavigation70(daoNavigation);
+//		insertNavigation71(daoNavigation);
+//		insertNavigation72(daoNavigation);
+//		insertNavigation73(daoNavigation);
+//		insertNavigation74(daoNavigation);
+//		insertNavigation75(daoNavigation);
+//		insertNavigation76(daoNavigation);
+//		insertNavigation77(daoNavigation);
+//		insertNavigation78(daoNavigation);
+//		insertNavigation79(daoNavigation);
+//		insertNavigation80(daoNavigation);
+//		insertNavigation81(daoNavigation);
+//		insertNavigation82(daoNavigation);
+//		insertNavigation83(daoNavigation);
+//		insertNavigation84(daoNavigation);
+//		insertNavigation85(daoNavigation);
+//		insertNavigation86(daoNavigation);
+//		insertNavigation87(daoNavigation);
+//		insertNavigation88(daoNavigation);
+//		insertNavigation89(daoNavigation);
+//		insertNavigation90(daoNavigation);
+//		insertNavigation91(daoNavigation);
+//		insertNavigation92(daoNavigation);
+//		insertNavigation93(daoNavigation);
+//		insertNavigation94(daoNavigation);
+//		insertNavigation95(daoNavigation);
+//		insertNavigation96(daoNavigation);
+//		insertNavigation97(daoNavigation);
+//		insertNavigation98(daoNavigation);
+//		insertNavigation99(daoNavigation);
+//		insertNavigation100(daoNavigation);
+//		insertNavigation101(daoNavigation);
+//		insertNavigation102(daoNavigation);
+//		insertNavigation103(daoNavigation);
+//		insertNavigation104(daoNavigation);
+//		insertNavigation105(daoNavigation);
+//		insertNavigation106(daoNavigation);
+//		insertNavigation107(daoNavigation);
+//		insertNavigation108(daoNavigation);
+//		insertNavigation109(daoNavigation);
+//		insertNavigation110(daoNavigation);
+//		insertNavigation111(daoNavigation);
+//		insertNavigation112(daoNavigation);
+//		insertNavigation113(daoNavigation);
+//		insertNavigation114(daoNavigation);
+//		insertNavigation115(daoNavigation);
+//		insertNavigation116(daoNavigation);
+//		insertNavigation117(daoNavigation);
+//		insertNavigation118(daoNavigation);
+//		insertNavigation119(daoNavigation);
+//		insertNavigation120(daoNavigation);
+//		insertNavigation121(daoNavigation);
+//		insertNavigation122(daoNavigation);
+//		insertNavigation123(daoNavigation);
+//		insertNavigation124(daoNavigation);
+//		insertNavigation125(daoNavigation);
+//		insertNavigation126(daoNavigation);
 		AbstractDaoJpa.close();
 
 	}
@@ -103,7 +157,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(5);
+		Histoire monHistoire = daoHistoire.findById(3);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -119,7 +173,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(5);
+		Histoire monHistoire = daoHistoire.findById(3);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -135,7 +189,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(5);
+		Histoire monHistoire = daoHistoire.findById(3);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -151,7 +205,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(6);
+		Histoire monHistoire = daoHistoire.findById(4);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -167,7 +221,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(6);
+		Histoire monHistoire = daoHistoire.findById(4);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -183,7 +237,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(6);
+		Histoire monHistoire = daoHistoire.findById(4);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -199,7 +253,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(7);
+		Histoire monHistoire = daoHistoire.findById(5);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -215,7 +269,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(7);
+		Histoire monHistoire = daoHistoire.findById(5);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -231,7 +285,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(7);
+		Histoire monHistoire = daoHistoire.findById(5);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -247,7 +301,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(8);
+		Histoire monHistoire = daoHistoire.findById(6);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -263,7 +317,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(8);
+		Histoire monHistoire = daoHistoire.findById(6);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -279,7 +333,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(8);
+		Histoire monHistoire = daoHistoire.findById(6);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -295,7 +349,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(9);
+		Histoire monHistoire = daoHistoire.findById(7);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -311,7 +365,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(9);
+		Histoire monHistoire = daoHistoire.findById(7);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -327,7 +381,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(9);
+		Histoire monHistoire = daoHistoire.findById(7);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -343,7 +397,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(10);
+		Histoire monHistoire = daoHistoire.findById(8);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -359,7 +413,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(10);
+		Histoire monHistoire = daoHistoire.findById(8);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -375,7 +429,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(10);
+		Histoire monHistoire = daoHistoire.findById(8);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -391,7 +445,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(13);
+		Histoire monHistoire = daoHistoire.findById(9);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -407,7 +461,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(13);
+		Histoire monHistoire = daoHistoire.findById(9);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -423,7 +477,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(13);
+		Histoire monHistoire = daoHistoire.findById(9);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -439,7 +493,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(14);
+		Histoire monHistoire = daoHistoire.findById(10);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -455,7 +509,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(14);
+		Histoire monHistoire = daoHistoire.findById(10);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -471,7 +525,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(14);
+		Histoire monHistoire = daoHistoire.findById(10);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -487,7 +541,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(15);
+		Histoire monHistoire = daoHistoire.findById(9);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -503,7 +557,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(15);
+		Histoire monHistoire = daoHistoire.findById(9);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -519,7 +573,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(15);
+		Histoire monHistoire = daoHistoire.findById(9);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -535,7 +589,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(16);
+		Histoire monHistoire = daoHistoire.findById(10);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -551,7 +605,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(16);
+		Histoire monHistoire = daoHistoire.findById(10);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -567,7 +621,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(16);
+		Histoire monHistoire = daoHistoire.findById(10);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -583,7 +637,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(17);
+		Histoire monHistoire = daoHistoire.findById(9);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -599,7 +653,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(17);
+		Histoire monHistoire = daoHistoire.findById(9);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -615,7 +669,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(17);
+		Histoire monHistoire = daoHistoire.findById(9);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -631,7 +685,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(18);
+		Histoire monHistoire = daoHistoire.findById(10);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -647,7 +701,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(18);
+		Histoire monHistoire = daoHistoire.findById(10);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -663,7 +717,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(18);
+		Histoire monHistoire = daoHistoire.findById(10);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -679,7 +733,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(27);
+		Histoire monHistoire = daoHistoire.findById(11);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -695,7 +749,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(27);
+		Histoire monHistoire = daoHistoire.findById(11);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -711,7 +765,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(27);
+		Histoire monHistoire = daoHistoire.findById(11);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -727,7 +781,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(28);
+		Histoire monHistoire = daoHistoire.findById(12);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -743,7 +797,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(28);
+		Histoire monHistoire = daoHistoire.findById(12);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -759,7 +813,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(28);
+		Histoire monHistoire = daoHistoire.findById(12);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -775,7 +829,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(27);
+		Histoire monHistoire = daoHistoire.findById(11);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -791,7 +845,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(27);
+		Histoire monHistoire = daoHistoire.findById(11);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -807,7 +861,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(27);
+		Histoire monHistoire = daoHistoire.findById(11);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -823,7 +877,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(28);
+		Histoire monHistoire = daoHistoire.findById(12);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -839,7 +893,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(28);
+		Histoire monHistoire = daoHistoire.findById(12);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -855,7 +909,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(28);
+		Histoire monHistoire = daoHistoire.findById(12);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -871,7 +925,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(27);
+		Histoire monHistoire = daoHistoire.findById(11);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -887,7 +941,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(27);
+		Histoire monHistoire = daoHistoire.findById(11);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -903,7 +957,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(27);
+		Histoire monHistoire = daoHistoire.findById(11);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -919,7 +973,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(28);
+		Histoire monHistoire = daoHistoire.findById(12);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -935,7 +989,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(28);
+		Histoire monHistoire = daoHistoire.findById(12);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -951,7 +1005,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(28);
+		Histoire monHistoire = daoHistoire.findById(12);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -967,7 +1021,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(27);
+		Histoire monHistoire = daoHistoire.findById(13);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -983,7 +1037,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(27);
+		Histoire monHistoire = daoHistoire.findById(13);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -999,7 +1053,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(27);
+		Histoire monHistoire = daoHistoire.findById(13);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -1015,7 +1069,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(28);
+		Histoire monHistoire = daoHistoire.findById(14);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -1031,7 +1085,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(28);
+		Histoire monHistoire = daoHistoire.findById(14);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -1047,7 +1101,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(28);
+		Histoire monHistoire = daoHistoire.findById(14);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -1063,7 +1117,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(27);
+		Histoire monHistoire = daoHistoire.findById(13);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -1079,7 +1133,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(27);
+		Histoire monHistoire = daoHistoire.findById(13);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -1095,7 +1149,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(27);
+		Histoire monHistoire = daoHistoire.findById(13);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -1111,7 +1165,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(28);
+		Histoire monHistoire = daoHistoire.findById(14);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -1127,7 +1181,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(28);
+		Histoire monHistoire = daoHistoire.findById(14);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -1143,7 +1197,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(28);
+		Histoire monHistoire = daoHistoire.findById(14);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -1159,7 +1213,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(27);
+		Histoire monHistoire = daoHistoire.findById(13);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -1175,7 +1229,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(27);
+		Histoire monHistoire = daoHistoire.findById(13);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -1191,7 +1245,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(27);
+		Histoire monHistoire = daoHistoire.findById(13);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -1207,7 +1261,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(28);
+		Histoire monHistoire = daoHistoire.findById(14);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -1223,7 +1277,7 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(28);
+		Histoire monHistoire = daoHistoire.findById(14);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
@@ -1239,7 +1293,871 @@ public class InsertNavigationJpaDao {
 		maNavigation.setChoixEffectue(maReponse);
 
 		IHistoireDao daoHistoire = new HistoireDaoJpa();
-		Histoire monHistoire = daoHistoire.findById(28);
+		Histoire monHistoire = daoHistoire.findById(14);
+		maNavigation.setHistoireRedirigee(monHistoire);
+
+		daoNavigation.save(maNavigation);
+	}
+
+	public static void insertNavigation73(INavigationDao daoNavigation) {
+		Navigation maNavigation = new Navigation();
+		maNavigation.setOrientationSexelle(OrientationSexuelle.HETERO);
+		maNavigation.setSexeDuJoueur(Sexe.FEMININ);
+
+		IReponseDao daoReponse = new ReponseDaoJpa();
+		Reponse maReponse = daoReponse.findById(25);
+		maNavigation.setChoixEffectue(maReponse);
+
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monHistoire = daoHistoire.findById(15);
+		maNavigation.setHistoireRedirigee(monHistoire);
+
+		daoNavigation.save(maNavigation);
+	}
+
+	public static void insertNavigation74(INavigationDao daoNavigation) {
+		Navigation maNavigation = new Navigation();
+		maNavigation.setOrientationSexelle(OrientationSexuelle.HOMO);
+		maNavigation.setSexeDuJoueur(Sexe.FEMININ);
+
+		IReponseDao daoReponse = new ReponseDaoJpa();
+		Reponse maReponse = daoReponse.findById(25);
+		maNavigation.setChoixEffectue(maReponse);
+
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monHistoire = daoHistoire.findById(15);
+		maNavigation.setHistoireRedirigee(monHistoire);
+
+		daoNavigation.save(maNavigation);
+	}
+
+	public static void insertNavigation75(INavigationDao daoNavigation) {
+		Navigation maNavigation = new Navigation();
+		maNavigation.setOrientationSexelle(OrientationSexuelle.BI);
+		maNavigation.setSexeDuJoueur(Sexe.FEMININ);
+
+		IReponseDao daoReponse = new ReponseDaoJpa();
+		Reponse maReponse = daoReponse.findById(25);
+		maNavigation.setChoixEffectue(maReponse);
+
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monHistoire = daoHistoire.findById(15);
+		maNavigation.setHistoireRedirigee(monHistoire);
+
+		daoNavigation.save(maNavigation);
+	}
+
+	public static void insertNavigation76(INavigationDao daoNavigation) {
+		Navigation maNavigation = new Navigation();
+		maNavigation.setOrientationSexelle(OrientationSexuelle.HETERO);
+		maNavigation.setSexeDuJoueur(Sexe.MASCULIN);
+
+		IReponseDao daoReponse = new ReponseDaoJpa();
+		Reponse maReponse = daoReponse.findById(26);
+		maNavigation.setChoixEffectue(maReponse);
+
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monHistoire = daoHistoire.findById(16);
+		maNavigation.setHistoireRedirigee(monHistoire);
+
+		daoNavigation.save(maNavigation);
+	}
+
+	public static void insertNavigation77(INavigationDao daoNavigation) {
+		Navigation maNavigation = new Navigation();
+		maNavigation.setOrientationSexelle(OrientationSexuelle.HOMO);
+		maNavigation.setSexeDuJoueur(Sexe.MASCULIN);
+
+		IReponseDao daoReponse = new ReponseDaoJpa();
+		Reponse maReponse = daoReponse.findById(26);
+		maNavigation.setChoixEffectue(maReponse);
+
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monHistoire = daoHistoire.findById(16);
+		maNavigation.setHistoireRedirigee(monHistoire);
+
+		daoNavigation.save(maNavigation);
+	}
+
+	public static void insertNavigation78(INavigationDao daoNavigation) {
+		Navigation maNavigation = new Navigation();
+		maNavigation.setOrientationSexelle(OrientationSexuelle.BI);
+		maNavigation.setSexeDuJoueur(Sexe.MASCULIN);
+
+		IReponseDao daoReponse = new ReponseDaoJpa();
+		Reponse maReponse = daoReponse.findById(26);
+		maNavigation.setChoixEffectue(maReponse);
+
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monHistoire = daoHistoire.findById(16);
+		maNavigation.setHistoireRedirigee(monHistoire);
+
+		daoNavigation.save(maNavigation);
+	}
+
+	public static void insertNavigation79(INavigationDao daoNavigation) {
+		Navigation maNavigation = new Navigation();
+		maNavigation.setOrientationSexelle(OrientationSexuelle.HETERO);
+		maNavigation.setSexeDuJoueur(Sexe.FEMININ);
+
+		IReponseDao daoReponse = new ReponseDaoJpa();
+		Reponse maReponse = daoReponse.findById(27);
+		maNavigation.setChoixEffectue(maReponse);
+
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monHistoire = daoHistoire.findById(15);
+		maNavigation.setHistoireRedirigee(monHistoire);
+
+		daoNavigation.save(maNavigation);
+	}
+
+	public static void insertNavigation80(INavigationDao daoNavigation) {
+		Navigation maNavigation = new Navigation();
+		maNavigation.setOrientationSexelle(OrientationSexuelle.HOMO);
+		maNavigation.setSexeDuJoueur(Sexe.FEMININ);
+
+		IReponseDao daoReponse = new ReponseDaoJpa();
+		Reponse maReponse = daoReponse.findById(27);
+		maNavigation.setChoixEffectue(maReponse);
+
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monHistoire = daoHistoire.findById(15);
+		maNavigation.setHistoireRedirigee(monHistoire);
+
+		daoNavigation.save(maNavigation);
+	}
+
+	public static void insertNavigation81(INavigationDao daoNavigation) {
+		Navigation maNavigation = new Navigation();
+		maNavigation.setOrientationSexelle(OrientationSexuelle.BI);
+		maNavigation.setSexeDuJoueur(Sexe.FEMININ);
+
+		IReponseDao daoReponse = new ReponseDaoJpa();
+		Reponse maReponse = daoReponse.findById(27);
+		maNavigation.setChoixEffectue(maReponse);
+
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monHistoire = daoHistoire.findById(15);
+		maNavigation.setHistoireRedirigee(monHistoire);
+
+		daoNavigation.save(maNavigation);
+	}
+
+	public static void insertNavigation82(INavigationDao daoNavigation) {
+		Navigation maNavigation = new Navigation();
+		maNavigation.setOrientationSexelle(OrientationSexuelle.HETERO);
+		maNavigation.setSexeDuJoueur(Sexe.MASCULIN);
+
+		IReponseDao daoReponse = new ReponseDaoJpa();
+		Reponse maReponse = daoReponse.findById(28);
+		maNavigation.setChoixEffectue(maReponse);
+
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monHistoire = daoHistoire.findById(16);
+		maNavigation.setHistoireRedirigee(monHistoire);
+
+		daoNavigation.save(maNavigation);
+	}
+
+	public static void insertNavigation83(INavigationDao daoNavigation) {
+		Navigation maNavigation = new Navigation();
+		maNavigation.setOrientationSexelle(OrientationSexuelle.HOMO);
+		maNavigation.setSexeDuJoueur(Sexe.MASCULIN);
+
+		IReponseDao daoReponse = new ReponseDaoJpa();
+		Reponse maReponse = daoReponse.findById(28);
+		maNavigation.setChoixEffectue(maReponse);
+
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monHistoire = daoHistoire.findById(16);
+		maNavigation.setHistoireRedirigee(monHistoire);
+
+		daoNavigation.save(maNavigation);
+	}
+
+	public static void insertNavigation84(INavigationDao daoNavigation) {
+		Navigation maNavigation = new Navigation();
+		maNavigation.setOrientationSexelle(OrientationSexuelle.BI);
+		maNavigation.setSexeDuJoueur(Sexe.MASCULIN);
+
+		IReponseDao daoReponse = new ReponseDaoJpa();
+		Reponse maReponse = daoReponse.findById(28);
+		maNavigation.setChoixEffectue(maReponse);
+
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monHistoire = daoHistoire.findById(16);
+		maNavigation.setHistoireRedirigee(monHistoire);
+
+		daoNavigation.save(maNavigation);
+	}
+
+	public static void insertNavigation85(INavigationDao daoNavigation) {
+		Navigation maNavigation = new Navigation();
+		maNavigation.setOrientationSexelle(OrientationSexuelle.HETERO);
+		maNavigation.setSexeDuJoueur(Sexe.FEMININ);
+
+		IReponseDao daoReponse = new ReponseDaoJpa();
+		Reponse maReponse = daoReponse.findById(29);
+		maNavigation.setChoixEffectue(maReponse);
+
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monHistoire = daoHistoire.findById(15);
+		maNavigation.setHistoireRedirigee(monHistoire);
+
+		daoNavigation.save(maNavigation);
+	}
+
+	public static void insertNavigation86(INavigationDao daoNavigation) {
+		Navigation maNavigation = new Navigation();
+		maNavigation.setOrientationSexelle(OrientationSexuelle.HOMO);
+		maNavigation.setSexeDuJoueur(Sexe.FEMININ);
+
+		IReponseDao daoReponse = new ReponseDaoJpa();
+		Reponse maReponse = daoReponse.findById(29);
+		maNavigation.setChoixEffectue(maReponse);
+
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monHistoire = daoHistoire.findById(15);
+		maNavigation.setHistoireRedirigee(monHistoire);
+
+		daoNavigation.save(maNavigation);
+	}
+
+	public static void insertNavigation87(INavigationDao daoNavigation) {
+		Navigation maNavigation = new Navigation();
+		maNavigation.setOrientationSexelle(OrientationSexuelle.BI);
+		maNavigation.setSexeDuJoueur(Sexe.FEMININ);
+
+		IReponseDao daoReponse = new ReponseDaoJpa();
+		Reponse maReponse = daoReponse.findById(29);
+		maNavigation.setChoixEffectue(maReponse);
+
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monHistoire = daoHistoire.findById(15);
+		maNavigation.setHistoireRedirigee(monHistoire);
+
+		daoNavigation.save(maNavigation);
+	}
+
+	public static void insertNavigation88(INavigationDao daoNavigation) {
+		Navigation maNavigation = new Navigation();
+		maNavigation.setOrientationSexelle(OrientationSexuelle.HETERO);
+		maNavigation.setSexeDuJoueur(Sexe.MASCULIN);
+
+		IReponseDao daoReponse = new ReponseDaoJpa();
+		Reponse maReponse = daoReponse.findById(30);
+		maNavigation.setChoixEffectue(maReponse);
+
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monHistoire = daoHistoire.findById(16);
+		maNavigation.setHistoireRedirigee(monHistoire);
+
+		daoNavigation.save(maNavigation);
+	}
+
+	public static void insertNavigation89(INavigationDao daoNavigation) {
+		Navigation maNavigation = new Navigation();
+		maNavigation.setOrientationSexelle(OrientationSexuelle.HOMO);
+		maNavigation.setSexeDuJoueur(Sexe.MASCULIN);
+
+		IReponseDao daoReponse = new ReponseDaoJpa();
+		Reponse maReponse = daoReponse.findById(30);
+		maNavigation.setChoixEffectue(maReponse);
+
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monHistoire = daoHistoire.findById(16);
+		maNavigation.setHistoireRedirigee(monHistoire);
+
+		daoNavigation.save(maNavigation);
+	}
+
+	public static void insertNavigation90(INavigationDao daoNavigation) {
+		Navigation maNavigation = new Navigation();
+		maNavigation.setOrientationSexelle(OrientationSexuelle.BI);
+		maNavigation.setSexeDuJoueur(Sexe.MASCULIN);
+
+		IReponseDao daoReponse = new ReponseDaoJpa();
+		Reponse maReponse = daoReponse.findById(30);
+		maNavigation.setChoixEffectue(maReponse);
+
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monHistoire = daoHistoire.findById(16);
+		maNavigation.setHistoireRedirigee(monHistoire);
+
+		daoNavigation.save(maNavigation);
+	}
+
+	public static void insertNavigation91(INavigationDao daoNavigation) {
+		Navigation maNavigation = new Navigation();
+		maNavigation.setOrientationSexelle(OrientationSexuelle.HETERO);
+		maNavigation.setSexeDuJoueur(Sexe.FEMININ);
+
+		IReponseDao daoReponse = new ReponseDaoJpa();
+		Reponse maReponse = daoReponse.findById(31);
+		maNavigation.setChoixEffectue(maReponse);
+
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monHistoire = daoHistoire.findById(15);
+		maNavigation.setHistoireRedirigee(monHistoire);
+
+		daoNavigation.save(maNavigation);
+	}
+
+	public static void insertNavigation92(INavigationDao daoNavigation) {
+		Navigation maNavigation = new Navigation();
+		maNavigation.setOrientationSexelle(OrientationSexuelle.HOMO);
+		maNavigation.setSexeDuJoueur(Sexe.FEMININ);
+
+		IReponseDao daoReponse = new ReponseDaoJpa();
+		Reponse maReponse = daoReponse.findById(31);
+		maNavigation.setChoixEffectue(maReponse);
+
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monHistoire = daoHistoire.findById(15);
+		maNavigation.setHistoireRedirigee(monHistoire);
+
+		daoNavigation.save(maNavigation);
+	}
+
+	public static void insertNavigation93(INavigationDao daoNavigation) {
+		Navigation maNavigation = new Navigation();
+		maNavigation.setOrientationSexelle(OrientationSexuelle.BI);
+		maNavigation.setSexeDuJoueur(Sexe.FEMININ);
+
+		IReponseDao daoReponse = new ReponseDaoJpa();
+		Reponse maReponse = daoReponse.findById(31);
+		maNavigation.setChoixEffectue(maReponse);
+
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monHistoire = daoHistoire.findById(15);
+		maNavigation.setHistoireRedirigee(monHistoire);
+
+		daoNavigation.save(maNavigation);
+	}
+
+	public static void insertNavigation94(INavigationDao daoNavigation) {
+		Navigation maNavigation = new Navigation();
+		maNavigation.setOrientationSexelle(OrientationSexuelle.HETERO);
+		maNavigation.setSexeDuJoueur(Sexe.MASCULIN);
+
+		IReponseDao daoReponse = new ReponseDaoJpa();
+		Reponse maReponse = daoReponse.findById(32);
+		maNavigation.setChoixEffectue(maReponse);
+
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monHistoire = daoHistoire.findById(16);
+		maNavigation.setHistoireRedirigee(monHistoire);
+
+		daoNavigation.save(maNavigation);
+	}
+
+	public static void insertNavigation95(INavigationDao daoNavigation) {
+		Navigation maNavigation = new Navigation();
+		maNavigation.setOrientationSexelle(OrientationSexuelle.HOMO);
+		maNavigation.setSexeDuJoueur(Sexe.MASCULIN);
+
+		IReponseDao daoReponse = new ReponseDaoJpa();
+		Reponse maReponse = daoReponse.findById(32);
+		maNavigation.setChoixEffectue(maReponse);
+
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monHistoire = daoHistoire.findById(16);
+		maNavigation.setHistoireRedirigee(monHistoire);
+
+		daoNavigation.save(maNavigation);
+	}
+
+	public static void insertNavigation96(INavigationDao daoNavigation) {
+		Navigation maNavigation = new Navigation();
+		maNavigation.setOrientationSexelle(OrientationSexuelle.BI);
+		maNavigation.setSexeDuJoueur(Sexe.MASCULIN);
+
+		IReponseDao daoReponse = new ReponseDaoJpa();
+		Reponse maReponse = daoReponse.findById(32);
+		maNavigation.setChoixEffectue(maReponse);
+
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monHistoire = daoHistoire.findById(16);
+		maNavigation.setHistoireRedirigee(monHistoire);
+
+		daoNavigation.save(maNavigation);
+	}
+
+	public static void insertNavigation97(INavigationDao daoNavigation) {
+		Navigation maNavigation = new Navigation();
+		maNavigation.setOrientationSexelle(OrientationSexuelle.HETERO);
+		maNavigation.setSexeDuJoueur(Sexe.FEMININ);
+
+		IReponseDao daoReponse = new ReponseDaoJpa();
+		Reponse maReponse = daoReponse.findById(33);
+		maNavigation.setChoixEffectue(maReponse);
+
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monHistoire = daoHistoire.findById(15);
+		maNavigation.setHistoireRedirigee(monHistoire);
+
+		daoNavigation.save(maNavigation);
+	}
+
+	public static void insertNavigation98(INavigationDao daoNavigation) {
+		Navigation maNavigation = new Navigation();
+		maNavigation.setOrientationSexelle(OrientationSexuelle.HOMO);
+		maNavigation.setSexeDuJoueur(Sexe.FEMININ);
+
+		IReponseDao daoReponse = new ReponseDaoJpa();
+		Reponse maReponse = daoReponse.findById(33);
+		maNavigation.setChoixEffectue(maReponse);
+
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monHistoire = daoHistoire.findById(15);
+		maNavigation.setHistoireRedirigee(monHistoire);
+
+		daoNavigation.save(maNavigation);
+	}
+
+	public static void insertNavigation99(INavigationDao daoNavigation) {
+		Navigation maNavigation = new Navigation();
+		maNavigation.setOrientationSexelle(OrientationSexuelle.BI);
+		maNavigation.setSexeDuJoueur(Sexe.FEMININ);
+
+		IReponseDao daoReponse = new ReponseDaoJpa();
+		Reponse maReponse = daoReponse.findById(33);
+		maNavigation.setChoixEffectue(maReponse);
+
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monHistoire = daoHistoire.findById(15);
+		maNavigation.setHistoireRedirigee(monHistoire);
+
+		daoNavigation.save(maNavigation);
+	}
+
+	public static void insertNavigation100(INavigationDao daoNavigation) {
+		Navigation maNavigation = new Navigation();
+		maNavigation.setOrientationSexelle(OrientationSexuelle.HETERO);
+		maNavigation.setSexeDuJoueur(Sexe.MASCULIN);
+
+		IReponseDao daoReponse = new ReponseDaoJpa();
+		Reponse maReponse = daoReponse.findById(34);
+		maNavigation.setChoixEffectue(maReponse);
+
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monHistoire = daoHistoire.findById(16);
+		maNavigation.setHistoireRedirigee(monHistoire);
+
+		daoNavigation.save(maNavigation);
+	}
+
+	public static void insertNavigation101(INavigationDao daoNavigation) {
+		Navigation maNavigation = new Navigation();
+		maNavigation.setOrientationSexelle(OrientationSexuelle.HOMO);
+		maNavigation.setSexeDuJoueur(Sexe.MASCULIN);
+
+		IReponseDao daoReponse = new ReponseDaoJpa();
+		Reponse maReponse = daoReponse.findById(34);
+		maNavigation.setChoixEffectue(maReponse);
+
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monHistoire = daoHistoire.findById(16);
+		maNavigation.setHistoireRedirigee(monHistoire);
+
+		daoNavigation.save(maNavigation);
+	}
+
+	public static void insertNavigation102(INavigationDao daoNavigation) {
+		Navigation maNavigation = new Navigation();
+		maNavigation.setOrientationSexelle(OrientationSexuelle.BI);
+		maNavigation.setSexeDuJoueur(Sexe.MASCULIN);
+
+		IReponseDao daoReponse = new ReponseDaoJpa();
+		Reponse maReponse = daoReponse.findById(34);
+		maNavigation.setChoixEffectue(maReponse);
+
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monHistoire = daoHistoire.findById(16);
+		maNavigation.setHistoireRedirigee(monHistoire);
+
+		daoNavigation.save(maNavigation);
+	}
+
+	public static void insertNavigation103(INavigationDao daoNavigation) {
+		Navigation maNavigation = new Navigation();
+		maNavigation.setOrientationSexelle(OrientationSexuelle.HETERO);
+		maNavigation.setSexeDuJoueur(Sexe.FEMININ);
+
+		IReponseDao daoReponse = new ReponseDaoJpa();
+		Reponse maReponse = daoReponse.findById(35);
+		maNavigation.setChoixEffectue(maReponse);
+
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monHistoire = daoHistoire.findById(15);
+		maNavigation.setHistoireRedirigee(monHistoire);
+
+		daoNavigation.save(maNavigation);
+	}
+
+	public static void insertNavigation104(INavigationDao daoNavigation) {
+		Navigation maNavigation = new Navigation();
+		maNavigation.setOrientationSexelle(OrientationSexuelle.HOMO);
+		maNavigation.setSexeDuJoueur(Sexe.FEMININ);
+
+		IReponseDao daoReponse = new ReponseDaoJpa();
+		Reponse maReponse = daoReponse.findById(35);
+		maNavigation.setChoixEffectue(maReponse);
+
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monHistoire = daoHistoire.findById(15);
+		maNavigation.setHistoireRedirigee(monHistoire);
+
+		daoNavigation.save(maNavigation);
+	}
+
+	public static void insertNavigation105(INavigationDao daoNavigation) {
+		Navigation maNavigation = new Navigation();
+		maNavigation.setOrientationSexelle(OrientationSexuelle.BI);
+		maNavigation.setSexeDuJoueur(Sexe.FEMININ);
+
+		IReponseDao daoReponse = new ReponseDaoJpa();
+		Reponse maReponse = daoReponse.findById(35);
+		maNavigation.setChoixEffectue(maReponse);
+
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monHistoire = daoHistoire.findById(15);
+		maNavigation.setHistoireRedirigee(monHistoire);
+
+		daoNavigation.save(maNavigation);
+	}
+
+	public static void insertNavigation106(INavigationDao daoNavigation) {
+		Navigation maNavigation = new Navigation();
+		maNavigation.setOrientationSexelle(OrientationSexuelle.HETERO);
+		maNavigation.setSexeDuJoueur(Sexe.MASCULIN);
+
+		IReponseDao daoReponse = new ReponseDaoJpa();
+		Reponse maReponse = daoReponse.findById(36);
+		maNavigation.setChoixEffectue(maReponse);
+
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monHistoire = daoHistoire.findById(16);
+		maNavigation.setHistoireRedirigee(monHistoire);
+
+		daoNavigation.save(maNavigation);
+	}
+
+	public static void insertNavigation107(INavigationDao daoNavigation) {
+		Navigation maNavigation = new Navigation();
+		maNavigation.setOrientationSexelle(OrientationSexuelle.HOMO);
+		maNavigation.setSexeDuJoueur(Sexe.MASCULIN);
+
+		IReponseDao daoReponse = new ReponseDaoJpa();
+		Reponse maReponse = daoReponse.findById(36);
+		maNavigation.setChoixEffectue(maReponse);
+
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monHistoire = daoHistoire.findById(16);
+		maNavigation.setHistoireRedirigee(monHistoire);
+
+		daoNavigation.save(maNavigation);
+	}
+
+	public static void insertNavigation108(INavigationDao daoNavigation) {
+		Navigation maNavigation = new Navigation();
+		maNavigation.setOrientationSexelle(OrientationSexuelle.BI);
+		maNavigation.setSexeDuJoueur(Sexe.MASCULIN);
+
+		IReponseDao daoReponse = new ReponseDaoJpa();
+		Reponse maReponse = daoReponse.findById(36);
+		maNavigation.setChoixEffectue(maReponse);
+
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monHistoire = daoHistoire.findById(16);
+		maNavigation.setHistoireRedirigee(monHistoire);
+
+		daoNavigation.save(maNavigation);
+	}
+
+	public static void insertNavigation109(INavigationDao daoNavigation) {
+		Navigation maNavigation = new Navigation();
+		maNavigation.setOrientationSexelle(OrientationSexuelle.HETERO);
+		maNavigation.setSexeDuJoueur(Sexe.FEMININ);
+
+		IReponseDao daoReponse = new ReponseDaoJpa();
+		Reponse maReponse = daoReponse.findById(37);
+		maNavigation.setChoixEffectue(maReponse);
+
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monHistoire = daoHistoire.findById(17);
+		maNavigation.setHistoireRedirigee(monHistoire);
+
+		daoNavigation.save(maNavigation);
+	}
+
+	public static void insertNavigation110(INavigationDao daoNavigation) {
+		Navigation maNavigation = new Navigation();
+		maNavigation.setOrientationSexelle(OrientationSexuelle.HOMO);
+		maNavigation.setSexeDuJoueur(Sexe.FEMININ);
+
+		IReponseDao daoReponse = new ReponseDaoJpa();
+		Reponse maReponse = daoReponse.findById(37);
+		maNavigation.setChoixEffectue(maReponse);
+
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monHistoire = daoHistoire.findById(17);
+		maNavigation.setHistoireRedirigee(monHistoire);
+
+		daoNavigation.save(maNavigation);
+	}
+
+	public static void insertNavigation111(INavigationDao daoNavigation) {
+		Navigation maNavigation = new Navigation();
+		maNavigation.setOrientationSexelle(OrientationSexuelle.BI);
+		maNavigation.setSexeDuJoueur(Sexe.FEMININ);
+
+		IReponseDao daoReponse = new ReponseDaoJpa();
+		Reponse maReponse = daoReponse.findById(37);
+		maNavigation.setChoixEffectue(maReponse);
+
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monHistoire = daoHistoire.findById(17);
+		maNavigation.setHistoireRedirigee(monHistoire);
+
+		daoNavigation.save(maNavigation);
+	}
+
+	public static void insertNavigation112(INavigationDao daoNavigation) {
+		Navigation maNavigation = new Navigation();
+		maNavigation.setOrientationSexelle(OrientationSexuelle.HETERO);
+		maNavigation.setSexeDuJoueur(Sexe.MASCULIN);
+
+		IReponseDao daoReponse = new ReponseDaoJpa();
+		Reponse maReponse = daoReponse.findById(38);
+		maNavigation.setChoixEffectue(maReponse);
+
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monHistoire = daoHistoire.findById(18);
+		maNavigation.setHistoireRedirigee(monHistoire);
+
+		daoNavigation.save(maNavigation);
+	}
+
+	public static void insertNavigation113(INavigationDao daoNavigation) {
+		Navigation maNavigation = new Navigation();
+		maNavigation.setOrientationSexelle(OrientationSexuelle.HOMO);
+		maNavigation.setSexeDuJoueur(Sexe.MASCULIN);
+
+		IReponseDao daoReponse = new ReponseDaoJpa();
+		Reponse maReponse = daoReponse.findById(38);
+		maNavigation.setChoixEffectue(maReponse);
+
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monHistoire = daoHistoire.findById(18);
+		maNavigation.setHistoireRedirigee(monHistoire);
+
+		daoNavigation.save(maNavigation);
+	}
+
+	public static void insertNavigation114(INavigationDao daoNavigation) {
+		Navigation maNavigation = new Navigation();
+		maNavigation.setOrientationSexelle(OrientationSexuelle.BI);
+		maNavigation.setSexeDuJoueur(Sexe.MASCULIN);
+
+		IReponseDao daoReponse = new ReponseDaoJpa();
+		Reponse maReponse = daoReponse.findById(38);
+		maNavigation.setChoixEffectue(maReponse);
+
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monHistoire = daoHistoire.findById(18);
+		maNavigation.setHistoireRedirigee(monHistoire);
+
+		daoNavigation.save(maNavigation);
+	}
+
+	public static void insertNavigation115(INavigationDao daoNavigation) {
+		Navigation maNavigation = new Navigation();
+		maNavigation.setOrientationSexelle(OrientationSexuelle.HETERO);
+		maNavigation.setSexeDuJoueur(Sexe.FEMININ);
+
+		IReponseDao daoReponse = new ReponseDaoJpa();
+		Reponse maReponse = daoReponse.findById(39);
+		maNavigation.setChoixEffectue(maReponse);
+
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monHistoire = daoHistoire.findById(17);
+		maNavigation.setHistoireRedirigee(monHistoire);
+
+		daoNavigation.save(maNavigation);
+	}
+
+	public static void insertNavigation116(INavigationDao daoNavigation) {
+		Navigation maNavigation = new Navigation();
+		maNavigation.setOrientationSexelle(OrientationSexuelle.HOMO);
+		maNavigation.setSexeDuJoueur(Sexe.FEMININ);
+
+		IReponseDao daoReponse = new ReponseDaoJpa();
+		Reponse maReponse = daoReponse.findById(39);
+		maNavigation.setChoixEffectue(maReponse);
+
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monHistoire = daoHistoire.findById(17);
+		maNavigation.setHistoireRedirigee(monHistoire);
+
+		daoNavigation.save(maNavigation);
+	}
+
+	public static void insertNavigation117(INavigationDao daoNavigation) {
+		Navigation maNavigation = new Navigation();
+		maNavigation.setOrientationSexelle(OrientationSexuelle.BI);
+		maNavigation.setSexeDuJoueur(Sexe.FEMININ);
+
+		IReponseDao daoReponse = new ReponseDaoJpa();
+		Reponse maReponse = daoReponse.findById(39);
+		maNavigation.setChoixEffectue(maReponse);
+
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monHistoire = daoHistoire.findById(17);
+		maNavigation.setHistoireRedirigee(monHistoire);
+
+		daoNavigation.save(maNavigation);
+	}
+
+	public static void insertNavigation118(INavigationDao daoNavigation) {
+		Navigation maNavigation = new Navigation();
+		maNavigation.setOrientationSexelle(OrientationSexuelle.HETERO);
+		maNavigation.setSexeDuJoueur(Sexe.MASCULIN);
+
+		IReponseDao daoReponse = new ReponseDaoJpa();
+		Reponse maReponse = daoReponse.findById(40);
+		maNavigation.setChoixEffectue(maReponse);
+
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monHistoire = daoHistoire.findById(18);
+		maNavigation.setHistoireRedirigee(monHistoire);
+
+		daoNavigation.save(maNavigation);
+	}
+
+	public static void insertNavigation119(INavigationDao daoNavigation) {
+		Navigation maNavigation = new Navigation();
+		maNavigation.setOrientationSexelle(OrientationSexuelle.HOMO);
+		maNavigation.setSexeDuJoueur(Sexe.MASCULIN);
+
+		IReponseDao daoReponse = new ReponseDaoJpa();
+		Reponse maReponse = daoReponse.findById(40);
+		maNavigation.setChoixEffectue(maReponse);
+
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monHistoire = daoHistoire.findById(18);
+		maNavigation.setHistoireRedirigee(monHistoire);
+
+		daoNavigation.save(maNavigation);
+	}
+
+	public static void insertNavigation120(INavigationDao daoNavigation) {
+		Navigation maNavigation = new Navigation();
+		maNavigation.setOrientationSexelle(OrientationSexuelle.BI);
+		maNavigation.setSexeDuJoueur(Sexe.MASCULIN);
+
+		IReponseDao daoReponse = new ReponseDaoJpa();
+		Reponse maReponse = daoReponse.findById(40);
+		maNavigation.setChoixEffectue(maReponse);
+
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monHistoire = daoHistoire.findById(18);
+		maNavigation.setHistoireRedirigee(monHistoire);
+
+		daoNavigation.save(maNavigation);
+	}
+
+	public static void insertNavigation121(INavigationDao daoNavigation) {
+		Navigation maNavigation = new Navigation();
+		maNavigation.setOrientationSexelle(OrientationSexuelle.HETERO);
+		maNavigation.setSexeDuJoueur(Sexe.FEMININ);
+
+		IReponseDao daoReponse = new ReponseDaoJpa();
+		Reponse maReponse = daoReponse.findById(41);
+		maNavigation.setChoixEffectue(maReponse);
+
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monHistoire = daoHistoire.findById(17);
+		maNavigation.setHistoireRedirigee(monHistoire);
+
+		daoNavigation.save(maNavigation);
+	}
+
+	public static void insertNavigation122(INavigationDao daoNavigation) {
+		Navigation maNavigation = new Navigation();
+		maNavigation.setOrientationSexelle(OrientationSexuelle.HOMO);
+		maNavigation.setSexeDuJoueur(Sexe.FEMININ);
+
+		IReponseDao daoReponse = new ReponseDaoJpa();
+		Reponse maReponse = daoReponse.findById(41);
+		maNavigation.setChoixEffectue(maReponse);
+
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monHistoire = daoHistoire.findById(17);
+		maNavigation.setHistoireRedirigee(monHistoire);
+
+		daoNavigation.save(maNavigation);
+	}
+
+	public static void insertNavigation123(INavigationDao daoNavigation) {
+		Navigation maNavigation = new Navigation();
+		maNavigation.setOrientationSexelle(OrientationSexuelle.BI);
+		maNavigation.setSexeDuJoueur(Sexe.FEMININ);
+
+		IReponseDao daoReponse = new ReponseDaoJpa();
+		Reponse maReponse = daoReponse.findById(41);
+		maNavigation.setChoixEffectue(maReponse);
+
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monHistoire = daoHistoire.findById(17);
+		maNavigation.setHistoireRedirigee(monHistoire);
+
+		daoNavigation.save(maNavigation);
+	}
+
+	public static void insertNavigation124(INavigationDao daoNavigation) {
+		Navigation maNavigation = new Navigation();
+		maNavigation.setOrientationSexelle(OrientationSexuelle.HETERO);
+		maNavigation.setSexeDuJoueur(Sexe.MASCULIN);
+
+		IReponseDao daoReponse = new ReponseDaoJpa();
+		Reponse maReponse = daoReponse.findById(42);
+		maNavigation.setChoixEffectue(maReponse);
+
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monHistoire = daoHistoire.findById(18);
+		maNavigation.setHistoireRedirigee(monHistoire);
+
+		daoNavigation.save(maNavigation);
+	}
+
+	public static void insertNavigation125(INavigationDao daoNavigation) {
+		Navigation maNavigation = new Navigation();
+		maNavigation.setOrientationSexelle(OrientationSexuelle.HOMO);
+		maNavigation.setSexeDuJoueur(Sexe.MASCULIN);
+
+		IReponseDao daoReponse = new ReponseDaoJpa();
+		Reponse maReponse = daoReponse.findById(42);
+		maNavigation.setChoixEffectue(maReponse);
+
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monHistoire = daoHistoire.findById(18);
+		maNavigation.setHistoireRedirigee(monHistoire);
+
+		daoNavigation.save(maNavigation);
+	}
+
+	public static void insertNavigation126(INavigationDao daoNavigation) {
+		Navigation maNavigation = new Navigation();
+		maNavigation.setOrientationSexelle(OrientationSexuelle.BI);
+		maNavigation.setSexeDuJoueur(Sexe.MASCULIN);
+
+		IReponseDao daoReponse = new ReponseDaoJpa();
+		Reponse maReponse = daoReponse.findById(42);
+		maNavigation.setChoixEffectue(maReponse);
+
+		IHistoireDao daoHistoire = new HistoireDaoJpa();
+		Histoire monHistoire = daoHistoire.findById(18);
 		maNavigation.setHistoireRedirigee(monHistoire);
 
 		daoNavigation.save(maNavigation);
